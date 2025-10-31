@@ -1,5 +1,6 @@
 # Analisis Insight CoffeeShop
 Tugas ini menentukan 6 insight utama dari dataset `CoffeeShop_Dataset.db`, lengkap dengan kode & output sehingga hasil dapat direproduksi. Insight: (1) preferensi Gen Z: teh vs kopi; (2) total transaksi & revenue; (3) Top-5 produk terlaris (quantity); (4) jumlah transaksi per tanggal; (5) peak hour per outlet; (6) Top-5 pastry.
+
 BY KELOMPOK 5 :
 - Cornelish Yoseptanu (103102400048)
 - Al Falaq Axcellio Gais Blantran de Rozari (103102400075)
