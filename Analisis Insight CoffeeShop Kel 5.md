@@ -120,7 +120,15 @@ Menghitung jumlah transaksi unik dan total pendapatan (revenue) dari seluruh bar
 2. Jumlahkan `line_item_amount` untuk mendapatkan total revenue.
 
 **Hasil akhir:** Total transaksi = 4203; Total revenue = 233635.95.
-
+```python
+total_trx = df_sales['transaction_id'].nunique()
+total_rev = df_sales['line_item_amount'].sum()
+print({'total_transaksi': int(total_trx), 'total_revenue': round(total_rev, 2)})
+```
+**Output:**
+```text
+{'total_transaksi': 4203, 'total_revenue': np.float64(233635.95)}
+```
 
 ## 3. Top-5 Produk Terlaris by Quantity
 
